@@ -37,7 +37,7 @@ export const Skills = () => {
               <p>I possess a solid foundation in web development, specializing in both frontend and backend technologies.<br></br> My expertise spans across creating intuitive UI/UX designs, building robust full-stack applications, and performing data analysis to drive informed decisions.</p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="Web Development" />
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
