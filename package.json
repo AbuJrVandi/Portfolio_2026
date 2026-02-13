@@ -5,7 +5,6 @@
   "engines": {
     "node": "20.x"
   },
-  "homepage": "https://AbuJrVandi.github.io/Portfolio_2026",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.16.4",
