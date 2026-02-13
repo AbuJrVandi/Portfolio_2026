@@ -734,3 +734,222 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/************ Responsive Css ************/
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 58px;
+  }
+
+  nav.navbar {
+    padding: 7px 0;
+    background-color: rgba(18, 18, 18, 0.95);
+  }
+
+  nav.navbar .container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  nav.navbar a.navbar-brand img {
+    position: static;
+    width: 120px;
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 8px 0;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    opacity: 0.9;
+  }
+
+  span.navbar-text {
+    margin-top: 8px;
+    gap: 6px;
+  }
+
+  .social-icon {
+    margin-left: 0;
+  }
+
+  .social-icon a,
+  .social-icon a::before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-text button {
+    font-size: 13px;
+    padding: 8px 12px;
+    margin-left: 0;
+  }
+
+  .banner {
+    padding: 96px 0 28px 0;
+    text-align: center;
+  }
+
+  .banner .tagline {
+    font-size: 12px;
+    padding: 5px 8px;
+    margin-bottom: 8px;
+  }
+
+  .banner h1 {
+    font-size: clamp(24px, 7vw, 30px);
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .banner p {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+  }
+
+  .banner button {
+    margin: 14px auto 0;
+    font-size: 14px;
+  }
+
+  .banner button svg {
+    font-size: 18px;
+  }
+
+  .banner img {
+    width: min(62vw, 220px);
+    margin-top: 16px;
+    border-width: 3px;
+  }
+
+  .skill {
+    padding-bottom: 16px;
+  }
+
+  .skill-bx {
+    margin-top: -16px;
+    padding: 20px 14px;
+    border-radius: 18px;
+  }
+
+  .skill h2,
+  .project h2,
+  .contact h2 {
+    font-size: clamp(23px, 6vw, 28px);
+  }
+
+  .skill p,
+  .project p {
+    font-size: 13px;
+    width: 100%;
+    margin: 8px auto 14px;
+  }
+
+  .project {
+    padding: 42px 0;
+  }
+
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+
+  .project .nav.nav-pills .nav-link {
+    font-size: 12px;
+    padding: 10px 6px;
+  }
+
+  .contact {
+    padding: 36px 0 64px 0;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    font-size: 14px;
+    padding: 10px 14px;
+    border-radius: 10px;
+  }
+
+  .contact form button {
+    font-size: 14px;
+    padding: 9px 20px;
+    margin-top: 10px;
+  }
+
+  .footer {
+    padding: 24px 0;
+  }
+
+  .footer img {
+    width: 38%;
+  }
+
+  .footer p {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    padding: 88px 0 24px 0;
+  }
+
+  .banner h1 {
+    font-size: clamp(22px, 8vw, 26px);
+  }
+
+  .banner p {
+    font-size: 12px;
+    line-height: 1.45;
+  }
+
+  .banner .tagline {
+    font-size: 11px;
+  }
+
+  .banner button {
+    font-size: 13px;
+  }
+
+  .banner img {
+    width: min(66vw, 190px);
+  }
+
+  .skill h2,
+  .project h2,
+  .contact h2 {
+    font-size: clamp(20px, 7vw, 24px);
+  }
+}
+
+@media (max-width: 360px) {
+  nav.navbar a.navbar-brand img {
+    width: 104px;
+  }
+
+  .social-icon a,
+  .social-icon a::before {
+    width: 28px;
+    height: 28px;
+  }
+
+  .navbar-text button {
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+
+  .banner {
+    padding-top: 82px;
+  }
+
+  .banner h1 {
+    font-size: 21px;
+  }
+
+  .banner p {
+    font-size: 11.5px;
+  }
+}
